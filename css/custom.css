@@ -1,0 +1,150 @@
+body {
+  min-height: 800px;
+  padding-top: 70px;
+}
+
+#modified{
+  display:inline;
+}
+
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding-top: 1px;
+    padding-bottom: 48px;
+  }
+    
+.navbar-default .navbar-brand {
+  color: #F4F4F4;
+}
+
+}
+
+.navbar-default {
+    background: #ff4c4f;
+    /*background: -moz-linear-gradient(45deg, #ff4c4f 34%, #ff920a 99%);
+    background: -webkit-linear-gradient(45deg, #ff4c4f 34%,#ff920a 99%);
+    background: linear-gradient(45deg, #ff4c4f 34%,#ff920a 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4c4f', endColorstr='#ff920a',GradientType=1 );*/
+    background-color:#C0B283;
+    }
+
+    
+.fab {
+    vertical-align: middle;
+    margin-bottom: 2px;
+}
+
+/*
+.img-thumbnail{
+        max-width: 35px;
+        filter: blur(.05em);   
+        border-radius: 10px;
+    }
+img {
+   image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    }
+*/  
+
+/* Nav Buttons */
+    
+.btn-primary {
+    background-color:#C0B283;
+    border-color: #a2976f;
+    }
+
+.btn-primary:hover {
+     background-color:#bcc083;   
+    }
+    
+.btn-xs {
+    background-color: #ff8964;
+    border-color: #eee;
+    }
+
+.btn-xs:hover {
+    background-color: #a2976f;
+    border-color: #000;
+    }
+    
+.h3 {
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.1;
+  color: inherit;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+}
+    
+.container .text-muted {
+  margin: 20px 0;
+}
+    
+.btn-lg, .btn-group-lg > .btn {
+    padding: 10px 16px;
+    font-size: 2.6vw;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.navbar-default .navbar-brand {
+  color: #F4F4F4;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+
+button {
+    border-style: dotted; /*none looks good too??*/
+}
+
+.notification {
+    position: fixed;
+    right: 45px;
+    top: 60px;
+    padding: 15px;
+    background:rgba(0,0,56,0.75);
+    color:white;
+    -webkit-transition:.2s;
+    transition:.2s;
+    z-index: 25;
+}
+
+.notification:not(.-visible) {
+    visibility: hidden;
+}
+
+.notificationHex {
+    position: fixed;
+    right: 45px;
+    top: 120px;
+    padding: 15px;
+    background:rgba(0,0,56,0.75);
+    color:white;
+    -webkit-transition:.2s;
+    transition:.2s;
+    z-index: 25;
+}
+
+.notificationHex:not(.-visible) {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 768px) {
+
+    .notification{
+        right: 5px;
+        padding: 5px;
+        pointer-events: all;
+    }
+
+}
